@@ -1,0 +1,44 @@
+body{
+    margin: 0 auto;
+}
+
+nav img{
+    width: 200px;
+}
+
+.biodata img{
+    width: 30px;
+}
+
+.contact img{
+    width: 30px;
+}
+
+.school img{
+    width: 150px;
+}
+
+.school div{
+    text-align: center;
+    width: 300px;
+    float: left;
+    margin-left: 2%;
+}
+
+.experience {
+    top: 680px;
+    float: none;
+    position: absolute;
+}
+
+nav {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+section {
+    margin-left: 300px;
+}
