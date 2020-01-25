@@ -1,5 +1,28 @@
 body{
     margin: 0 auto;
+    padding: 0px;
+    background-color: #F8F8FF;
+    color: #0000FF;
+}
+
+hr{
+    color: #E0FFFF;
+}
+
+h1{
+    color: #191970;
+}
+
+h2{
+    color: #000080;
+}
+
+h3{
+    color: #00008B;
+}
+
+h4{
+    color: #0000CD;
 }
 
 nav img{
@@ -58,30 +81,57 @@ nav img{
 
 .experience table{
     text-align: center;
-    border: 1px solid black;
+    border: 1px solid #87CEEB;
     table-layout: auto;
     width: 100%;
 }
 
 .experience td{
-    border: 1px solid black;
+    border: 1px solid #87CEFA;
     border-spacing: unset;
 }
 
 .experience th{
-    border: 1px solid black;
+    border: 1px solid #ADD8E6;
     border-spacing: unset;
 }
 
 nav {
+    margin-top: 0px;
     padding-left: 10px;
     padding-right: 10px;
-    height: 100%;
+    padding-top: 10px;
     float: left;
     text-align: center;
     width: 250px;
+    background-color: #FFFFFF;
+    height: 1300px;
+}
+
+#school{
+    float: none;
+    position: absolute;
+    width: 75%;
+    top: 670px;
+    margin-left: 5px;
+}
+
+#experience{
+    float: none;
+    position: absolute;
+    width: 75%;
+    top: 845px;
 }
 
 section {
     margin-left: 300px;
+}
+
+footer{
+    float: none;
+    position: absolute;
+    top: 1330px;
+    background-color: #F0FFFF;
+    width: 100%;
+    text-align: center;
 }
