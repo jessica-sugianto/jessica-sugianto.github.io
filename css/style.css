@@ -10,6 +10,19 @@ nav img{
     width: 30px;
 }
 
+.skill table{
+    text-align: left;
+    width: 100%;
+}
+
+.hobby img{
+    width: 70px;
+}
+
+.biodata table{
+    width: 100%;
+}
+
 .contact img{
     width: 30px;
 }
@@ -29,6 +42,35 @@ nav img{
     top: 680px;
     float: none;
     position: absolute;
+    width: 75%;
+}
+
+.certificate{
+    top: 850px;
+    float: none;
+    position: absolute;
+}
+
+.certificate img{
+    width: 280px;
+    margin-left: 45px;
+}
+
+.experience table{
+    text-align: center;
+    border: 1px solid black;
+    table-layout: auto;
+    width: 100%;
+}
+
+.experience td{
+    border: 1px solid black;
+    border-spacing: unset;
+}
+
+.experience th{
+    border: 1px solid black;
+    border-spacing: unset;
 }
 
 nav {
@@ -37,6 +79,7 @@ nav {
     height: 100%;
     float: left;
     text-align: center;
+    width: 250px;
 }
 
 section {
